@@ -1,0 +1,8 @@
+1. Warrior
+2. Mage
+3. Ranger
+4. Thief
+5. Monk
+6. Warlock
+7. Priest
+8. Paladin

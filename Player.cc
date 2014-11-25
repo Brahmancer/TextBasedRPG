@@ -11,11 +11,17 @@ class Player: public Actor{
     int intelligence; // default for magical attacks and knowledge of the world
     int charisma; // used for talking and persuading others
 
+    string gender; // male of female
+    string charClass; // refer to the CharacterClasses.txt
+
 public:
 
-    Player(int strength, int agility, int constitution, int intelligence, int charisma): Actor(name, "Player", health)
+    Player(string gender, string charClass, int strength, int agility, int constitution, int intelligence, int charisma):
+            Actor(name, "Player", health)
     {
         //this->name = name;
+        this->gender = gender;
+        this->charClass = charClass;
         this->strength = strength;
         this->agility = agility;
         this->intelligence = intelligence;
